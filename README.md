@@ -17,5 +17,6 @@ Bunch of covenant tasks i've hacked together from various bits of code etc. I'm 
 1. Add 'CredPhisher.cs' file to the following directory 'Covenant/Data/ReferenceSourceLibraries/SharpSploit/SharpSploit/Credentials'
 2. Use the code in phisher.task to either create a persistant task (based upon Cobbr's instructions in the Covenant Repo) or use the web interface and paste it into the code section.
 
-![AlertBox](Images/alertbox.png)
-![phishtask](Images/phishtask.png)
+<img src="Images/alertbox.png" width="40%"> <img src="Images/phishtask.png" width="40%">
+
+---
